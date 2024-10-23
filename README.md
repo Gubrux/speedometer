@@ -162,6 +162,3 @@ const value = ref(400); // Valor mostrado por el velocímetro
 - **Actualizaciones Dinámicas**: Si estás actualizando el valor del velocímetro dinámicamente (por ejemplo, en respuesta a la entrada del usuario o datos en tiempo real), asegúrate de usar `ref` o `reactive` de Vue para mantener los valores reactivos.
 - **Renderizado**: Si notas que los cambios no se reflejan de inmediato, considera usar la propiedad `force-render` para asegurarte de que el componente se actualice como se espera.
 
----
-
-Para preguntas adicionales o para explorar más casos de uso avanzados, no dudes en revisar la documentación oficial o contactar a la comunidad para obtener soporte.
